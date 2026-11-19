@@ -5,9 +5,12 @@
 
 #pragma once
 
-class Application
+
+class SandBox
 {
 public:
-    Application();
-    ~Application();
+    SandBox();
+    ~SandBox();
+
+    void OnImGuiRender();
 };

@@ -1,29 +1,28 @@
 cmake_minimum_required(VERSION 4.3)
-project(SDL_ImGui_Template)
+project(PLACEHOLDER_PROJECT)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_subdirectory(external/imgui)
+add_subdirectory(SDL_ImGui_Template)
 
 file(GLOB_RECURSE HEADERS src/*.h)
 file(GLOB_RECURSE SRC src/*.cpp)
 
 add_executable(
-        SDL_ImGui_Template
+        PLACEHOLDER_PROJECT
         ${HEADERS}
         ${SRC}
 )
 
 target_link_libraries(
-        SDL_ImGui_Template
+        PLACEHOLDER_PROJECT
         PRIVATE
-        SDL3::SDL3
-        ImGui
+        SDL_ImGui_Template
 )
 
 target_include_directories(
-        SDL_ImGui_Template
+        PLACEHOLDER_PROJECT
         PRIVATE
-        external/SDL/include
-        external/imgui/
+        SDL_ImGui_Template
+        src
 )

@@ -1,7 +1,12 @@
 #include <iostream>
 
+#include "../SDL_ImGui_Template/src/Application.h"
+
 int main()
 {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Application app;
+
+    app.Run();
+
+    return EXIT_SUCCESS;
 }

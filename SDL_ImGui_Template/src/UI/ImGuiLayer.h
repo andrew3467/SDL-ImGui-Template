@@ -4,7 +4,6 @@
 
 
 #pragma once
-#include "imgui.h"
 
 struct SDL_Window;
 struct SDL_Renderer;
@@ -18,7 +17,7 @@ public:
 
     void Init();
 
-    void ProcessEvent(const SDL_Event *event);
+    void ProcessEvent(SDL_Event event) const;
 
     void Begin();
     void End();
