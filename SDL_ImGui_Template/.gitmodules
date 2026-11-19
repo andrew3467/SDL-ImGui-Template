@@ -1,0 +1,7 @@
+[submodule "external/imgui"]
+	path = external/imgui
+	url = https://github.com/andrew3467/imgui.git
+	branch = docking
+[submodule "external/SDL"]
+	path = external/SDL
+	url = https://github.com/libsdl-org/SDL.git

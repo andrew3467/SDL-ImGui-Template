@@ -1,7 +1,0 @@
-[submodule "external/imgui"]
-	path = SDL_ImGui_Template/external/imgui
-	url = https://github.com/ocornut/imgui.git
-	branch = docking
-[submodule "SDL_ImGui_Template/external/SDL"]
-	path = SDL_ImGui_Template/external/SDL
-	url = https://github.com/libsdl-org/SDL.git
