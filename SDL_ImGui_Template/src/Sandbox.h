@@ -12,5 +12,7 @@ public:
     SandBox();
     ~SandBox();
 
+    void Start();
+    void Update();
     void OnImGuiRender();
 };

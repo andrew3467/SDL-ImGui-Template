@@ -18,6 +18,14 @@ SandBox::~SandBox()
 
 }
 
+void SandBox::Start()
+{
+}
+
+void SandBox::Update()
+{
+}
+
 void SandBox::OnImGuiRender()
 {
     ImGui::Begin("Sandbox");

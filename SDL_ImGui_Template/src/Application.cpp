@@ -19,10 +19,15 @@ void Application::Run()
 
     SandBox sandbox {};
 
+
+    sandbox.Start();
     while (!sdlContext.Render(
         [&sandbox]()
         {
             sandbox.OnImGuiRender();
         }
-    )) {}
+    ))
+    {
+        sandbox.Update();
+    }
 }
